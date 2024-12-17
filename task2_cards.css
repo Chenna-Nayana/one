@@ -1,0 +1,48 @@
+*{
+    margin:0;
+}
+header{
+    color:blueviolet;
+    font-family:sans-serif;
+    text-align: center;
+}
+nav{
+    justify-content:space-around;
+    display:flex;
+}
+.card{
+ height:330px;
+ width:200px;
+border: 3px solid black;
+text-align: center;
+box-shadow: 2px 2px black;
+}
+.dresses{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+
+a{
+    color:brown;
+    text-decoration: none;
+}
+p{
+    font-size: large;
+    font-weight: 600px;
+}
+.original-price{
+    color:red;
+    text-decoration: line-through;
+    font-size: medium;
+}
+.discount{
+    font-weight: 600;
+    color:darkblue;
+    font-size: 18px;
+}
+.card:active{
+    width:195px;
+    height:295px;
+}
